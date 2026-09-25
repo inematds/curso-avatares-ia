@@ -1,0 +1,198 @@
+{
+  "slug": "avatares-ia",
+  "title": "Avatares, Lip Sync e Motion Control v6.2",
+  "modules": [
+    {
+      "title": "Rosto, captura e mensagem",
+      "promise": "Escolha a identidade, prepare uma gravação limpa e escreva uma fala que cabe no tempo.",
+      "topics": [
+        {
+          "title": "Avatar representa alguém numa cena",
+          "concept": "Avatar é uma representação visual usada como apresentador ou personagem. Pode partir de uma foto, de uma pessoa gravada ou de um personagem inventado. Um gêmeo digital usa material de uma pessoa real. Um personagem fictício precisa de uma aparência consistente, mas não representa uma experiência vivida.",
+          "why": "Na Oficina Clara, Otávio quer explicar uma técnica com sua própria identidade. Bia também planeja Nina, uma apresentadora fictícia. Esses caminhos não devem se misturar. Uma personagem inventada pode apresentar uma informação, mas não deve receber uma história real que nunca viveu.",
+          "practice": "Escreva quem aparece, qual mensagem entrega e como será identificado.",
+          "caution": "Use sua própria imagem ou autorização verificável. A pessoa real deve realizar as confirmações exigidas pela ferramenta."
+        },
+        {
+          "title": "Três entradas, três critérios",
+          "concept": "Rosto define a aparência, voz fornece a fala e movimento orienta a atuação. Um recurso pode combinar essas partes, mas cada uma precisa ser revisada. No HeyGen, os nomes III, IV e V identificam gerações do sistema; a conta mostra quais combinam com seu tipo de avatar.",
+          "why": "Não escolha apenas pelo número maior. Confira a entrada exigida e o custo mostrado. Um caminho que aceita foto não implica que aceite uma referência completa de atuação. Registre o recurso usado para conseguir repetir o teste depois. Teto é custo por tentativa vezes número máximo. Exemplo fictício: 10 créditos por tentativa, até três tentativas, resultam em teto de 30 créditos.",
+          "practice": "Liste imagem, áudio e vídeo disponíveis, com origem e objetivo de cada um.",
+          "caution": "Guias de ferramentas mudam e podem divergir; confira o modo exibido antes de investir em um lote."
+        },
+        {
+          "title": "Luz, enquadramento e apoio vêm primeiro",
+          "concept": "Apoie o celular em tripé ou apoio firme e deixe a lente próxima da altura dos olhos. Use luz suave diante de você ou um pouco ao lado. Evite uma janela forte atrás da cabeça. Limpe a lente, olhe para ela e mantenha a boca descoberta. Faça um teste curto antes da gravação principal.",
+          "why": "Para meio corpo, deixe cabeça e mãos dentro do quadro durante o gesto. Para corpo inteiro, inclua também os pés. A foto usada depois deve combinar com esse enquadramento. Não mude de lugar durante o teste inicial.",
+          "practice": "Grave dez segundos e confira luz, foco e partes visíveis.",
+          "caution": "Se o celular apoiar em livros, confira estabilidade antes de gravar; a referência não deve oscilar."
+        },
+        {
+          "title": "O arquivo deve servir ao caminho escolhido",
+          "concept": "Uma captura para gêmeo digital pode pedir fala e expressividade. Uma referência de movimento pede um plano contínuo e gesto legível. Confira as exigências do recurso antes da gravação final. Não suponha que um único arquivo atende todos os modos.",
+          "why": "No HeyGen, a criação de gêmeo digital inclui uma confirmação da pessoa representada. Siga o texto e o processo apresentados pela plataforma. Uma autorização escrita externa não substitui essa etapa. Guarde os arquivos originais separados das versões editadas.",
+          "practice": "Continuação: grave a duração e o tipo de material exigidos pelo caminho escolhido.",
+          "caution": "Não use uma geração de avatar para simular a confirmação de uma pessoa real."
+        },
+        {
+          "title": "Uma fala, uma função",
+          "concept": "Escolha uma única função: apresentar, explicar um passo, responder uma dúvida ou convidar a continuar. Use frases curtas com palavras que você realmente diria. Escreva números como quer ouvi-los. Leia nomes em voz alta para descobrir pronúncias ambíguas.",
+          "why": "Para Oficina Clara: Hoje vamos escolher um pincel. Observe o formato da ponta antes de começar. Essa fala orienta uma ação simples. Ela não precisa contar a história da oficina nem fazer uma promessa de resultado.",
+          "practice": "Escreva uma mensagem e retire tudo que não ajuda sua função principal.",
+          "caution": "Não prometa um tempo de fala apenas contando palavras; grave um ensaio e meça."
+        },
+        {
+          "title": "A pausa pertence à mensagem",
+          "concept": "Grave no aplicativo Gravador do celular e ouça e confira o tempo exibido no Gravador. Se passar de quinze segundos, corte uma ideia. Se ficar curto demais, deixe uma pausa natural em vez de encher com adjetivos. Separe o texto falado das instruções de atuação, que pertencem a outro campo.",
+          "why": "Um sorriso discreto é uma orientação de atuação, não uma frase para o avatar pronunciar. Se você inserir instruções no texto falado, a voz pode lê-las literalmente. Revise o áudio antes de gastar com a animação.",
+          "practice": "Crie versões de apresentação, dica e convite, usando a mesma voz para comparar.",
+          "caution": "Não acelere tanto que as palavras se tornem difíceis de entender."
+        }
+      ]
+    },
+    {
+      "title": "Voz e primeiro apresentador",
+      "promise": "Prepare áudio em português, entenda clonagem e gere uma fala curta com o avatar escolhido.",
+      "topics": [
+        {
+          "title": "Texto para fala transforma escrita em áudio",
+          "concept": "Texto para fala é um recurso que lê uma mensagem usando uma voz escolhida. No ElevenLabs, abra Text to Speech, cole sua fala e selecione voz e modelo compatíveis com português. Confira o custo antes de gerar. Ouça a saída inteira e baixe o arquivo aprovado.",
+          "why": "A escolha deve combinar com a finalidade. Para ensinar uma técnica, clareza e pausas ajudam mais que uma atuação exagerada. Não presuma sotaque brasileiro pelo idioma da página. Ouça nomes, números e palavras do seu tema.",
+          "practice": "Compare a mesma frase em duas vozes disponíveis, dentro do teto de uso.",
+          "caution": "Não reutilize uma amostra pública como se tivesse gravado a pessoa que a voz lembra."
+        },
+        {
+          "title": "Revisão em três passagens",
+          "concept": "Primeiro confira as palavras: faltou alguma, apareceu outra, o nome foi pronunciado corretamente? Depois avalie ritmo e pausas. Por fim, ouça no celular, em volume confortável, para perceber ruído e cortes. Anote o trecho que precisa mudar antes de gerar de novo.",
+          "why": "Guarde texto, voz e configuração junto do áudio. Se a oficina oferece acesso ao INEMAVOX, ela pode ser uma alternativa supervisionada. Confirme o acesso e a voz cadastrada com o responsável. O curso não presume que esse serviço local esteja disponível na internet.",
+          "practice": "Teste uma alteração de pontuação ou uma frase mais curta e compare os dois arquivos.",
+          "caution": "Um nome de voz não garante que outro serviço tenha a mesma identidade ou configuração."
+        },
+        {
+          "title": "Clone é uma aproximação de características vocais",
+          "concept": "Clonagem usa uma gravação para aproximar timbre, ritmo e pronúncia. Grave sua própria voz num local silencioso, sem música ou outras pessoas falando. Mantenha distância estável do microfone e evite sons estourados. Ouça com atenção antes de enviar. Se a voz chiar ou ficar áspera nos trechos fortes, afaste um pouco o microfone ou fale mais baixo. Regrave e compare.",
+          "why": "No ElevenLabs, o fluxo de clonagem instantânea permite gravar ou enviar áudio e confirmar os direitos sobre a voz. O recurso profissional tem verificação específica do titular. Não trate os dois processos como equivalentes. Para este exercício, use somente sua própria voz.",
+          "practice": "Confira a duração e os formatos exigidos na tela antes de produzir a gravação final.",
+          "caution": "Um clone não comprova que a pessoa pronunciou a nova mensagem; identifique a fala sintética quando isso for relevante ao contexto."
+        },
+        {
+          "title": "Teste a semelhança sem confundir sotaque e identidade",
+          "concept": "Depois de criar um clone, use uma frase diferente da gravação de referência. Compare se a voz é reconhecível, clara e natural. Uma mudança de sotaque ou emoção pode diminuir a semelhança. Guarde o áudio original para fazer uma comparação direta.",
+          "why": "Outros serviços, como MiniMax, também oferecem clonagem. Os requisitos e controles devem ser consultados neles; uma receita não se transfere automaticamente. A alternativa mais simples continua sendo gravar sua própria narração, quando isso atende ao vídeo.",
+          "practice": "Continuação: crie o clone pelo fluxo disponível, gere uma frase nova e compare com a sua voz real.",
+          "caution": "Não marque clonagem como concluída por ter gravado apenas a amostra."
+        },
+        {
+          "title": "Escolha o avatar dentro do recurso correto",
+          "concept": "No HeyGen, use Avatars para criar ou selecionar seu apresentador. Para foto, siga o caminho Photo Avatar; para sua versão baseada em vídeo, siga Clone a Real Person e a confirmação exigida. Confira o tipo de visual e os sistemas compatíveis na conta atual.",
+          "why": "Os guias de HeyGen usam caminhos diferentes conforme o recurso. Alguns descrevem Single Scene, outros AI Studio. Escolha o modo de apresentação disponível e registre o nome. Não suponha que todos os avatares aceitam o mesmo sistema III, IV ou V.",
+          "practice": "Continuação prévia: finalize a criação do avatar antes de iniciar a geração da fala.",
+          "caution": "Uma foto adicionada apenas aos arquivos da cena não equivale a um avatar com sincronização labial."
+        },
+        {
+          "title": "Voz aprovada entra antes da geração",
+          "concept": "No projeto de apresentação, selecione o avatar e carregue o áudio conferido, pela opção de carregar arquivo de áudio, quando disponível. Se usar texto e voz do próprio serviço, ouça a prévia. Escolha formato e atuação simples. Confira duração e custo antes de gerar.",
+          "why": "Quando o arquivo terminar, assista inteiro. Compare palavras, boca, olhos e mãos. Uma prévia sonora não confirma o movimento final. Baixe a versão aprovada e guarde a configuração. Se o rosto deformar ou a fala cortar, registre o ponto antes de repetir.",
+          "practice": "Repita somente o trecho que falhou, com uma mudança de cada vez e dentro do teto.",
+          "caution": "Sem avatar pronto ou acesso ao modo, mantenha a produção pendente; não entregue a foto como vídeo falado."
+        }
+      ]
+    },
+    {
+      "title": "Fala, boca e gesto sob controle",
+      "promise": "Prepare pedidos literais, teste sincronização e transfira um movimento simples com referência própria.",
+      "topics": [
+        {
+          "title": "Texto falado precisa estar delimitado",
+          "concept": "Separe cena, fala exata e atuação. Para um apresentador frontal, peça câmera parada, boca visível e uma frase curta em português. Use aspas para delimitar o que será dito, quando o modo aceita fala no pedido. Isso facilita a revisão, mas não obriga o gerador a reproduzir cada palavra.",
+          "why": "O curso oferece cinco funções: saudação, dica, explicação, resposta e convite. Escolha uma por teste. Pedir todas numa geração curta mistura objetivos e dificulta descobrir o que falhou. Confira o áudio produzido, sem presumir que ele segue o texto.",
+          "practice": "Adapte as cinco falas da ficha ao seu assunto e ensaie a escolhida.",
+          "caution": "Um pedido literal não transforma um modo sem áudio em gerador de fala."
+        },
+        {
+          "title": "Escolha a ferramenta pelo controle necessário",
+          "concept": "Kling oferece caminhos de áudio nativo, avatar e sincronização posterior, conforme modo e conta. Grok Imagine também cria vídeo com áudio em configurações compatíveis. Um recurso documentado para integração entre programas pode diferir do aplicativo. Confira o que sua tela realmente aceita.",
+          "why": "Quando precisa usar um arquivo de voz aprovado, escolha um fluxo que aceite esse áudio, como um modo de avatar compatível. Se a fala precisa apenas explorar uma ideia, um teste de geração nativa pode servir. Não apresente tentativa exploratória como locução final.",
+          "practice": "Continuação: teste uma fala no recurso disponível e transcreva o que realmente ouviu.",
+          "caution": "Não prometa português ou envio de áudio próprio em todos os modos; confirme antes de gerar."
+        },
+        {
+          "title": "Imagem e áudio formam um caminho de avatar",
+          "concept": "No recurso Kling Avatar, selecione uma imagem própria ou da sua personagem e adicione o áudio aprovado. O guia Avatar 2.0 também permite orientar expressão e atuação. Comece com um gesto discreto e rosto desobstruído. Confira o custo e gere uma tentativa curta.",
+          "why": "Esse caminho parte de imagem e áudio. O recurso separado de Lip Sync pode começar de um vídeo já existente e ajustar a boca à fala. Se a conta oferecer esse segundo fluxo, forneça também o clipe com rosto visível. Registre qual operação executou.",
+          "practice": "Continuação: compare uma saída de Avatar com um teste de Lip Sync, se os dois estiverem disponíveis no seu teto.",
+          "caution": "Não chame imagem mais áudio de edição de um vídeo anterior quando nenhum vídeo foi fornecido."
+        },
+        {
+          "title": "Ouça, observe e depois combine",
+          "concept": "Ouça sem olhar para conferir as palavras. Depois observe rosto, dentes e bordas da boca. Por fim, acompanhe som e imagem juntos. Procure atrasos perceptíveis, fim de frase cortado ou boca falando no silêncio. Registre o instante do problema.",
+          "why": "Uma fala com pausa clara facilita essa inspeção. Não espere uma forma fixa da boca para cada letra isolada: o movimento depende dos sons vizinhos. O objetivo inicial é perceber desencaixes evidentes e decidir se a peça pode ser usada.",
+          "practice": "Teste a abertura de poucos segundos com avatar e continue com imagens de apoio, quando isso servir à mensagem.",
+          "caution": "Usar avatar só na abertura reduz o trecho a revisar, mas não corrige uma sincronia ruim automaticamente."
+        },
+        {
+          "title": "Uma pessoa, um gesto, câmera estável",
+          "concept": "Grave você mesmo fazendo um aceno curto, com o celular apoiado em tripé. Mantenha uma pessoa visível, sem cortes e sem movimentar a câmera. Use velocidade moderada. Deixe espaço para a mão durante todo o gesto. Separe uma imagem própria ou inventada com enquadramento compatível.",
+          "why": "Meio corpo combina com meio corpo; corpo inteiro combina com corpo inteiro. A foto também precisa ter espaço para a ação. Uma mão em repouso sob o queixo não comprova que o quadro comporta um aceno alto. Planeje essa margem antes de enviar.",
+          "practice": "Regrave o gesto da aula 2 se a mão sair do quadro ou se houver movimento de câmera.",
+          "caution": "Use gravação própria ou autorizada; não copie a atuação de uma pessoa sem permissão."
+        },
+        {
+          "title": "Confira gesto e identidade separadamente",
+          "concept": "Em Motion Control, carregue vídeo de ação e imagem do personagem nos campos correspondentes. Confira qual referência guia a orientação da pessoa. Essa orientação não é a proporção vertical ou horizontal do arquivo. Quando houver vínculo facial, ele ajuda a orientar o rosto; roupa e acessórios exigem revisão própria.",
+          "why": "Gere uma tentativa curta dentro do teto. Assista ao gesto inteiro e observe mãos, rosto, roupa e fundo. Se só parte da ação foi transferida, anote a diferença. Uma expressão parecida não comprova que o movimento completo foi preservado.",
+          "practice": "Continuação: ajuste apenas enquadramento ou amplitude do gesto e compare com o primeiro teste.",
+          "caution": "Não suponha que controle de movimento também executou sincronização labial; revise a fala por um fluxo apropriado."
+        }
+      ]
+    },
+    {
+      "title": "Personagem consistente e série reutilizável",
+      "promise": "Fixe a identidade, conheça caminhos de criação e organize uma entrega com evidências de produção.",
+      "topics": [
+        {
+          "title": "A ficha fixa o que o público reconhece",
+          "concept": "Defina nome de trabalho, função, aparência, voz e modo de falar. Para Nina: apresentadora virtual de oficina, cabelo curto cacheado com mecha cinza, casaco ferrugem e fala calma. Separe isso do contexto, como bancada, assunto e gesto. A história da personagem deve servir ao conteúdo, sem inventar credenciais reais.",
+          "why": "O chamado prompt mestre é apenas um texto-base reutilizável. Ele ajuda a lembrar decisões, mas não garante o mesmo rosto. Guarde também uma imagem de referência aprovada. Compare olhos, nariz, cabelo e roupa ao revisar variações.",
+          "practice": "Monte uma ficha curta com cinco características fixas e três que podem variar.",
+          "caution": "Não use o texto-base como prova de consistência; as imagens precisam ser comparadas."
+        },
+        {
+          "title": "Reutilize a referência no fluxo escolhido",
+          "concept": "No OpenArt, a documentação orienta partir de uma referência principal, preparar ângulos e salvar a personagem para reutilização. Isso evita depender somente de uma descrição nova a cada tentativa. Confira os controles e selecione a personagem salva quando o modo permitir.",
+          "why": "Uma folha de ângulos também pode conter diferenças. Revise cada vista antes de incorporá-la à biblioteca. Se o cabelo ou o rosto mudam, refaça essa imagem em vez de ensinar a variação errada ao fluxo seguinte. Para pessoa real, mantenha fotos próprias como comparação.",
+          "practice": "Continuação: salve a personagem no recurso disponível e teste uma cena nova com referência vinculada.",
+          "caution": "Se apenas escreveu a ficha, registre planejamento; personagem salva e cenas geradas são outras etapas."
+        },
+        {
+          "title": "Menus ajudam a explicitar escolhas",
+          "concept": "No Higgsfield AI Influencer Studio, abra a criação de personagem e escolha os atributos disponíveis no painel Builder. Comece por poucas decisões visuais e gere uma proposta após conferir o custo. Salve a versão que melhor atende à função da personagem.",
+          "why": "Para este exercício, imagine uma alternativa a Nina: apresentadora de camisa azul e óculos verdes. É outra proposta, não uma continuação da identidade anterior. Detalhes particulares podem tornar o rosto reconhecível, mas não precisam virar caricatura nem depender de estereótipos.",
+          "practice": "Registre as escolhas visuais antes de editar a proposta.",
+          "caution": "Gerar por menus não significa ausência de decisões ou garantia de um rosto único."
+        },
+        {
+          "title": "Personagem salva não é o mesmo que identidade treinada",
+          "concept": "O Studio permite guardar personagens e encaminhá-los a outros recursos. Soul ID é um caminho distinto de identidade treinada com um conjunto de fotos. O guia consultado pede pelo menos vinte imagens de uma mesma identidade. Só planeje essa etapa depois de revisar a coerência do conjunto.",
+          "why": "Para uma personagem inventada, você precisa produzir e conferir as referências. Não misture rostos apenas para atingir a quantidade. A qualidade da seleção importa. Este curso não exige treinar Soul ID para fazer o primeiro vídeo; a comparação serve para escolher o próximo investimento.",
+          "practice": "Continuação opcional: compare uma cena com personagem salva e outra com identidade treinada, se fizer sentido para sua série.",
+          "caution": "Não declare identidade treinada quando apenas salvou uma proposta na biblioteca."
+        },
+        {
+          "title": "Quatro episódios, uma identidade",
+          "concept": "Planeje apresentação, dica, explicação e encerramento. Mantenha referência, voz e forma de falar. Troque apenas o assunto e o gesto necessário. Cada episódio deve ter uma mensagem curta que caiba no tempo ensaiado. Guarde texto e configuração junto do arquivo final.",
+          "why": "Na Oficina Clara, Nina se apresenta, mostra um pincel, explica uma escolha e convida a continuar. Isso organiza a série sem inventar um depoimento pessoal. Se usar sua versão digital, confira se a mensagem continua sendo algo que você realmente quer comunicar.",
+          "practice": "Continuação: produza os quatro episódios, revise cada um e compare a identidade entre eles.",
+          "caution": "Quatro cartões de roteiro são planejamento, não quatro vídeos concluídos."
+        },
+        {
+          "title": "Três testes deixam claro o que você aprendeu",
+          "concept": "Reúna o avatar falado do HeyGen, o teste de fala no Kling e a transferência de movimento com referência própria. Para cada um, registre entrada, configuração, custo, arquivo e revisão. Se um recurso faltou, marque indisponível ou pendente. Uma alternativa pode atender à mensagem, mas não comprova a mesma operação.",
+          "why": "Antes de compartilhar, assista no celular e confira texto, pronúncia, boca, mãos e identidade. Inclua uma identificação clara de personagem virtual quando for o caso. Separe os arquivos aprovados dos testes. O projeto está concluído quando as entregas escolhidas existem e foram revisadas.",
+          "practice": "Continuação necessária: execute as pendências de produção antes de apresentar o projeto como finalizado.",
+          "caution": "Reserve sessões adicionais para criar avatares, gerar, corrigir e montar. As práticas de dez minutos não incluem toda essa produção."
+        }
+      ]
+    }
+  ]
+}

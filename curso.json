@@ -1,0 +1,51 @@
+{
+  "id": "avatares-ia-v62",
+  "titulo": "Avatares, Lip Sync e Motion Control v6.2",
+  "titulo_html": "Rosto, voz <em>e movimento</em>",
+  "curso_curto": "Avatares IA v6.2",
+  "kicker": "Avatares IA v6.2 · 4 módulos · 12 aulas",
+  "lead": "Prepare referências, revise uma fala em português e produza testes de avatar, sincronização labial e movimento. Organize uma série com identidade consistente.",
+  "imagem_trilha": "assets/img/trilha.webp",
+  "alt_trilha": "Produtora e professor de oficina planejam referências de apresentador.",
+  "rodape": "Avatares IA v6.2 · INEMA.CLUB PRO · <a href=\"landing.html\">sobre o curso</a>",
+  "landing": "landing.html",
+  "glossario": true,
+  "modulos": [
+    {
+      "titulo": "Módulo 1 · Rosto, captura e mensagem",
+      "resumo": "Escolha a identidade, prepare uma gravação limpa e escreva uma fala que cabe no tempo.",
+      "aulas": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "titulo": "Módulo 2 · Voz e primeiro apresentador",
+      "resumo": "Prepare áudio em português, entenda clonagem e gere uma fala curta com o avatar escolhido.",
+      "aulas": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "titulo": "Módulo 3 · Fala, boca e gesto sob controle",
+      "resumo": "Prepare pedidos literais, teste sincronização e transfira um movimento simples com referência própria.",
+      "aulas": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "titulo": "Módulo 4 · Personagem consistente e série reutilizável",
+      "resumo": "Fixe a identidade, conheça caminhos de criação e organize uma entrega com evidências de produção.",
+      "aulas": [
+        10,
+        11,
+        12
+      ]
+    }
+  ]
+}
