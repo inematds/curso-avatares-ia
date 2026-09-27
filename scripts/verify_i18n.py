@@ -3,7 +3,7 @@
 from pathlib import Path
 from bs4 import BeautifulSoup
 from urllib.parse import urlsplit,unquote
-import json,re,sys,subprocess
+import json,re,sys,subprocess,zipfile
 root=Path(sys.argv[1]).resolve();results=[]
 for lang in ['pt','en','es']:
  base=root if lang=='pt'else root/lang
@@ -34,4 +34,16 @@ for lang in ['pt','en','es']:
     assert dst.get('data-answer')==q.get('data-answer'),(qid,'quiz answer changed')
   results.append({'locale':lang,'file':pt.name,'ids':len(ids),'passed':True})
  for p in (base/'assets').glob('*.js'):subprocess.run(['node','--check',str(p)],check=True,capture_output=True)
+ if lang!='pt':
+  for archive in (base/'assets').rglob('*.zip'):
+   original=root/archive.relative_to(base)
+   with zipfile.ZipFile(original)as ptzip,zipfile.ZipFile(archive)as translated:
+    assert translated.testzip()is None,(archive,'corrupt archive')
+    assert ptzip.namelist()==translated.namelist(),(archive,'kit filenames changed')
+    media=0
+    for name in ptzip.namelist():
+     if Path(name).suffix.lower()not in ['.txt','.md','.csv','.srt','.vtt']:
+      assert ptzip.read(name)==translated.read(name),(archive,name,'media changed')
+      media+=1
+    results.append({'locale':lang,'file':str(archive.relative_to(base)),'mediaPreserved':media,'passed':True})
 (root/'context/i18n-static-checks.json').write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n');print(json.dumps(results))

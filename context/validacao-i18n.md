@@ -1,6 +1,6 @@
 # Validação EN/ES — 2026-09-27
 
-Conteúdo 1.1.0; formato OSWork v6.2 preservado.
+Conteúdo 1.1.1; formato OSWork v6.2 preservado.
 - EN: 12/12 aulas aprovadas; média 9.833333333333334/10. Ver auditoria-en.json.
 - ES: 12/12 aulas aprovadas; média 9.916666666666666/10. Ver auditoria-es.json.
 - Auditor adaptado ao idioma EN: download/upload/login/backup/setup/input/output/script são vocabulário nativo, não empréstimos ingleses no português. Sentinelas técnicas (API, CLI, JSON, Git, terminal etc.) e demais critérios permanecem ativos. A adaptação é local ao verificador; a skill global não foi alterada.
@@ -12,3 +12,4 @@ Conteúdo 1.1.0; formato OSWork v6.2 preservado.
 - Todos os testes de navegador bloquearam HTTP externo; fontes de fallback locais. Nenhuma API de tradução usada.
 - Capturas locais: /home/nmaldaner/projetos/output/cursos-v62-traducao/curso-avatares-ia. A inspeção visual é registrada separadamente após abrir as capturas.
 - Inspeção visual: ES aula12 celular e EN aula6 desktop escuro; imagens, títulos, quiz e controles legíveis, sem sobreposição observada.
+- Patch 1.1.1: campos humanos de preenchimento traduzidos pelo Luna; static, auditorias EN/ES e navegador repetidos com sucesso. Motor permanece sem alteração.

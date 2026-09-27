@@ -23,7 +23,7 @@ def blocks(soup):
    if leaf(c):out.append(c)
    else:walk(c)
  walk(soup.body or soup)
- if soup.title:out.append(soup.title)
+ if soup.title and not any(t is soup.title for t in out):out.append(soup.title)
  selected={id(x) for x in out}
  orphans=[n for n in (soup.body or soup).find_all(string=True) if not isinstance(n,Comment) and eligible(str(n)) and not n.find_parent(['script','style']) and not any(id(p) in selected for p in n.parents)]
  return out,orphans
@@ -161,6 +161,11 @@ def alternates(soup,page,lang):
   head=soup.new_tag('head');soup.html.insert(0,head)
   for t in list(soup.html.children):
    if getattr(t,'name',None)in ['meta','title','link','style']:head.append(t.extract())
+ if soup.body is None:
+  body=soup.new_tag('body')
+  for t in list(soup.html.children):
+   if t is not soup.head:body.append(t.extract())
+  soup.html.append(body)
  for t in soup.select('link[rel=alternate],.langs'):t.decompose()
  for loc,(hl,label) in LANGS.items():
   href=page if loc==lang else (f'{loc}/{page}'if lang=='pt' else f'../{page}'if loc=='pt' else f'../{loc}/{page}')
@@ -187,6 +192,10 @@ def build(root):
   for i in range(1,4):trans.update(json.loads(read(root/f'i18n/{lang}-{i}.json')))
   override=root/f'i18n/{lang}-overrides.json'
   if override.exists():trans.update(json.loads(read(override)))
+  hints=root/'i18n/human-placeholders.json'
+  if hints.exists():
+   phrases=json.loads(read(hints))['phrases']
+   trans={k:re.sub(r'&lt;([^<>]*?)&gt;',lambda m:'&lt;'+phrases.get(m[1],{}).get(lang,m[1])+'&gt;',v)for k,v in trans.items()}
   missing=set(src)-set(trans)
   if missing:raise ValueError(f'{lang}: {len(missing)} missing: {list(missing)[:5]}')
   errors={k:validate(s,trans[k])for k,s in src.items()if validate(s,trans[k])}

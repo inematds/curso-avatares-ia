@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1 — 2026-09-27
+
+- Traduz as instruções humanas entre delimitadores nas fichas EN/ES com catálogo revisado pelo Luna.
+
 ## 1.1.0 — 2026-09-27
 
 - Edições EN/ES com GPT-6 Luna pela assinatura Codex, sem API de tradução.
